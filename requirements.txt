@@ -1,0 +1,16 @@
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+python-dotenv
+google-api-python-client
+tqdm
+emoji
+nltk
+wordcloud
+plotly
+transformers
+torch
+accelerate
+pyyaml

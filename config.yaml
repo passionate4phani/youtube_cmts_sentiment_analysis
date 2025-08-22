@@ -1,0 +1,14 @@
+app:
+  max_comments: 500
+  language: "en"
+  cache_dir: "artifacts"
+models:
+  classical:
+    artifacts:
+      vectorizer: "artifacts/tfidf.joblib"
+      model: "artifacts/logreg.joblib"
+    ngram_range: [1,2]
+    max_features: 30000
+  deep:
+    hf_pipeline: "sentiment-analysis"
+    model_name: "distilbert-base-uncased-finetuned-sst-2-english"
