@@ -8,8 +8,8 @@ The app supports both **classical ML models** and a **Deep Learning approach** f
 ##  Features
 -  **Fetch comments** from any YouTube video using its **Video ID**.  
 -  **Sentiment Analysis**:
-  - Classical ML (Logistic Regression, Naive Bayes, SVM)
-  - Deep Learning (LSTM)  
+  - Classical ML (Logistic Regression)
+  - Deep Learning (DistilBERT)  
 -  **Visualizations**:
   - Sentiment distribution pie chart
   - Word clouds for positive, negative, neutral comments
